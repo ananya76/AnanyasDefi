@@ -1,0 +1,455 @@
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Manrope,Arial, sans-serif;
+    background-color: #0e0b1b;
+  }
+  .header {
+    background-color: #0D0A1B;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    color: #ffffff;
+    padding: 20px 200px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .header .logo {
+    width: 50px; 
+    height: 50px; 
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .header svg {
+    color: white;
+  }
+  .title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 40px;
+    vertical-align: middle;
+    background-color: #209E78;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .button:hover {
+    background-color: #FF814C;
+  }
+
+  /* intro section */
+
+  .intro-container {
+    display: flex;
+    position: relative;
+    background-image: linear-gradient(to bottom, #000000, #0a0306, #10070f, #130c16, #14101c, #171b2c, #13273c, #02344b, #004e64, #006974, #00847b, #209e78);
+    border-radius: 0 0 20px 20px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 150px 200px;
+  }
+  .content {
+    flex: 2;
+    padding-right: 50px;
+  }
+
+  .logos {
+    display: flex;
+  }
+
+  .heading {
+    font-family: Manrope, Arial,sans-serif;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+
+  .heading1{
+    background: -webkit-linear-gradient( #add862, #9ad772);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .heading2{
+    background: -webkit-linear-gradient( #9ad772, #58cfa2);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .paragraph {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Manrope;
+    margin-bottom: 20px;
+    max-width: 80%;
+    margin-bottom: 50px;
+  }
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  .button1 {
+    padding: 15px 30px;
+    background-color: #209E78;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: background-color 0.3s ease;
+  }
+
+  .button2 {
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #209E78;
+    border-radius: 15px ;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: #FF814C;
+  }
+  .image {
+    flex: 1;
+    text-align: right;
+  }
+  .image img {
+    width: 100%;
+    height: 100%
+    /* object-fit: cover;
+    object-position: center center; */
+  }
+
+
+  /* solutions section */
+
+  .section {
+    padding: 100px 180px;
+    text-align: center;
+  }
+  .section-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .section-paragraph {
+    font-weight: 500;
+    color: #9298A6;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    flex: 1;
+    background-color: #120d27;
+    height: 28rem;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    
+  }
+  .card:last-child {
+    margin-right: 0;
+    border: 2px solid #473694 ;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card:last-child .card-title{
+    color: #473694;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    max-width: 50%;
+    
+  }
+
+  .card-img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 35px 35px 0 0;
+    
+  }
+
+
+  .card-title {
+    font-size: 24px;
+    margin: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    color: white;
+  }
+
+  .card-description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #9298A6;
+    margin: 30px;
+  }
+
+  .button3{
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;;
+    border-radius: 15px ;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: background-color 0.3s ease;
+  }
+
+  .button3:hover{
+    color: #209E78;
+  }
+
+
+  /* yoki box */
+  .box {
+    margin: 100px 180px;
+    padding: 20px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, #1d1734, #20193b, #231c42, #271e49, #2a2150, #2d2357, #30265e, #332865, #372b6e, #3b2e77, #403180, #443489);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .box-content {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .box-title {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .box-text {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 80%;
+  }
+  .box-img {
+    flex:1;
+    display: flex;
+    position: relative;
+  }
+
+   .d1{
+    left: 200%;
+  }
+
+   .d2{
+    left: 600%;
+  }
+
+  .box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* techstack */
+
+  .container {
+    margin: 100px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 80px;
+  }
+  .title {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  .title-heading {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    max-width: 60%;
+    color: white;
+  }
+  
+  .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 20px;
+  }
+  .logo-pair {
+    display: flex;
+    gap: 10px;
+    margin: 5px 0;
+  }
+
+  .lp2{
+    margin-left: 200px;
+  }
+
+  .logo {
+    width: 130px;
+    height: 130px;
+    margin: 0 5px;
+  }
+
+
+  /* footer */
+  .footer {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #0d0a1b, #0e0f1e, #101321, #111723, #121a26, #13202d, #122634, #112d3b, #0a3946, #03454d, #065252, #195e53);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 180px  ;
+  }
+  .footer .logo {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px
+  }
+
+  .footer span{
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .company-links {
+    margin-bottom: 20px;
+  }
+  .company-links .title {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9298A6;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .about a{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .social-icons {
+    justify-content: center;
+    color: white;
+  }
+
+  .social-icons .title1{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9298A6;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .icons{
+    margin-top: 30px;
+  }
+
+  .social-icons svg {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+
+
+   /* Animation for text */
+   @keyframes slideInUp {
+    from {
+      opacity: 0.5;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animated-text {
+    animation: slideInUp 1s ease-in-out;
+  }
+
+ 
